@@ -6,7 +6,7 @@ import streamlit as st
 model = pickle.load(open("CaliforniaHousing_xgb_model.pkl", "rb"))
 scaler = pickle.load(open("CaliforniaHousing_xgb_scaler.pkl", "rb"))
 
-st.title("Ev Fiyatı Tahmin Uygulaması")
+st.title("California Ev Fiyatı Tahmin Uygulaması")
 st.write(
     "Lütfen ev ve konum özelliklerini girerek tahmini fiyatı hesaplayın."
 )
